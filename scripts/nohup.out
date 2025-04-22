@@ -1,0 +1,2133 @@
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 500.perlbench_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264933 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   500.perlbench_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r...
+Starting runcpu for 500.perlbench_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 500.perlbench_r
+Compiling Binaries
+  Up to date 500.perlbench_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0640-0799
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 12:14:37]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.342.log
+
+runcpu finished at 2025-04-17 12:24:20; 621 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 500.perlbench_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265594 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   500.perlbench_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 500.perlbench_r...
+Starting runcpu for 500.perlbench_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 500.perlbench_r
+Compiling Binaries
+  Up to date 500.perlbench_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 500.perlbench_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0640-0799
+Running Benchmarks
+  Running 500.perlbench_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 12:24:58]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.343.log
+
+runcpu finished at 2025-04-17 12:34:25; 605 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 502.gcc_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263927 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   502.gcc_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 502.gcc_r...
+Starting runcpu for 502.gcc_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 502.gcc_r
+Compiling Binaries
+  Up to date 502.gcc_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 502.gcc_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0160-0319
+Running Benchmarks
+  Running 502.gcc_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 12:34:31]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.344.log
+
+runcpu finished at 2025-04-17 12:46:59; 754 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 502.gcc_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265657 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   502.gcc_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 502.gcc_r...
+Starting runcpu for 502.gcc_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 502.gcc_r
+Compiling Binaries
+  Up to date 502.gcc_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 502.gcc_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0160-0319
+Running Benchmarks
+  Running 502.gcc_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 12:47:08]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.345.log
+
+runcpu finished at 2025-04-17 12:59:10; 730 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 505.mcf_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265764 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   505.mcf_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 505.mcf_r...
+Starting runcpu for 505.mcf_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 505.mcf_r
+Compiling Binaries
+  Up to date 505.mcf_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 505.mcf_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 505.mcf_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 12:59:13]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.346.log
+
+runcpu finished at 2025-04-17 13:21:13; 1323 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 505.mcf_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (267021 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   505.mcf_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 505.mcf_r...
+Starting runcpu for 505.mcf_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 505.mcf_r
+Compiling Binaries
+  Building 505.mcf_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 13:21:15]
+
+Build successes for intrate: 505.mcf_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 505.mcf_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 505.mcf_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 13:21:18]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.347.log
+
+runcpu finished at 2025-04-17 13:43:20; 1326 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 520.omnetpp_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265770 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   520.omnetpp_r              
+-------------------------------------------------------------------------------
+
+Setting up environment for running 520.omnetpp_r...
+Starting runcpu for 520.omnetpp_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 520.omnetpp_r
+Compiling Binaries
+  Building 520.omnetpp_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 13:43:23]
+
+Build successes for intrate: 520.omnetpp_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 520.omnetpp_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 520.omnetpp_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 13:43:37]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.348.log
+
+runcpu finished at 2025-04-17 14:08:50; 1530 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 520.omnetpp_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (266750 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   520.omnetpp_r              
+-------------------------------------------------------------------------------
+
+Setting up environment for running 520.omnetpp_r...
+Starting runcpu for 520.omnetpp_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 520.omnetpp_r
+Compiling Binaries
+  Building 520.omnetpp_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 14:08:52]
+
+Build successes for intrate: 520.omnetpp_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 520.omnetpp_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 520.omnetpp_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 14:09:06]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.349.log
+
+runcpu finished at 2025-04-17 14:31:02; 1332 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 523.xalancbmk_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (266132 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   523.xalancbmk_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 523.xalancbmk_r...
+Starting runcpu for 523.xalancbmk_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 523.xalancbmk_r
+Compiling Binaries
+  Building 523.xalancbmk_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 14:31:07]
+
+Build successes for intrate: 523.xalancbmk_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 523.xalancbmk_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 523.xalancbmk_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 14:31:27]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.350.log
+
+runcpu finished at 2025-04-17 14:41:10; 607 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 523.xalancbmk_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265006 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   523.xalancbmk_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 523.xalancbmk_r...
+Starting runcpu for 523.xalancbmk_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 523.xalancbmk_r
+Compiling Binaries
+  Building 523.xalancbmk_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 14:41:12]
+
+Build successes for intrate: 523.xalancbmk_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 523.xalancbmk_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 523.xalancbmk_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 14:41:34]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.351.log
+
+runcpu finished at 2025-04-17 14:51:08; 598 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 525.x264_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265472 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   525.x264_r                 
+-------------------------------------------------------------------------------
+
+Setting up environment for running 525.x264_r...
+Starting runcpu for 525.x264_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 525.x264_r
+Compiling Binaries
+  Up to date 525.x264_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 525.x264_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 525.x264_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 14:51:44]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.352.log
+
+runcpu finished at 2025-04-17 14:56:57; 349 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 525.x264_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265243 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   525.x264_r                 
+-------------------------------------------------------------------------------
+
+Setting up environment for running 525.x264_r...
+Starting runcpu for 525.x264_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 525.x264_r
+Compiling Binaries
+  Building 525.x264_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 14:57:00]
+
+Build successes for intrate: 525.x264_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 525.x264_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 525.x264_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 14:57:47]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.353.log
+
+runcpu finished at 2025-04-17 15:03:06; 369 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 531.deepsjeng_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265821 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   531.deepsjeng_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 531.deepsjeng_r...
+Starting runcpu for 531.deepsjeng_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 531.deepsjeng_r
+Compiling Binaries
+  Building 531.deepsjeng_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:03:09]
+
+Build successes for intrate: 531.deepsjeng_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 531.deepsjeng_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 531.deepsjeng_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:03:12]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.354.log
+
+runcpu finished at 2025-04-17 15:09:35; 388 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 531.deepsjeng_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (266002 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   531.deepsjeng_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 531.deepsjeng_r...
+Starting runcpu for 531.deepsjeng_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 531.deepsjeng_r
+Compiling Binaries
+  Building 531.deepsjeng_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:09:37]
+
+Build successes for intrate: 531.deepsjeng_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 531.deepsjeng_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 531.deepsjeng_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:09:40]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.355.log
+
+runcpu finished at 2025-04-17 15:15:50; 374 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 541.leela_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265420 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   541.leela_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 541.leela_r...
+Starting runcpu for 541.leela_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 541.leela_r
+Compiling Binaries
+  Building 541.leela_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:15:53]
+
+Build successes for intrate: 541.leela_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 541.leela_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 541.leela_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:15:58]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.356.log
+
+runcpu finished at 2025-04-17 15:24:56; 546 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 541.leela_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264584 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   541.leela_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 541.leela_r...
+Starting runcpu for 541.leela_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 541.leela_r
+Compiling Binaries
+  Building 541.leela_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:24:59]
+
+Build successes for intrate: 541.leela_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 541.leela_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 541.leela_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:25:04]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.357.log
+
+runcpu finished at 2025-04-17 15:33:24; 507 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 548.exchange2_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264863 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   548.exchange2_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 548.exchange2_r...
+Starting runcpu for 548.exchange2_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 548.exchange2_r
+Compiling Binaries
+  Up to date 548.exchange2_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 548.exchange2_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 548.exchange2_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:33:27]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.358.log
+
+runcpu finished at 2025-04-17 15:40:37; 432 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 548.exchange2_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264754 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   548.exchange2_r            
+-------------------------------------------------------------------------------
+
+Setting up environment for running 548.exchange2_r...
+Starting runcpu for 548.exchange2_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 548.exchange2_r
+Compiling Binaries
+  Building 548.exchange2_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:40:39]
+
+Build successes for intrate: 548.exchange2_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 548.exchange2_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 548.exchange2_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:40:51]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.359.log
+
+runcpu finished at 2025-04-17 15:47:45; 427 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 557.xz_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (266241 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   557.xz_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 557.xz_r...
+Starting runcpu for 557.xz_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 557.xz_r
+Compiling Binaries
+  Up to date 557.xz_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 557.xz_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 557.xz_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:47:49]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.360.log
+
+runcpu finished at 2025-04-17 15:59:18; 692 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 557.xz_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264859 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+only_run   rate       refrate    SPECrate2017_int   557.xz_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 557.xz_r...
+Starting runcpu for 557.xz_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 557.xz_r
+Compiling Binaries
+  Building 557.xz_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 15:59:20]
+
+Build successes for intrate: 557.xz_r(base)
+Build errors for intrate: None
+
+Setting Up Run Directories
+  Setting up 557.xz_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 557.xz_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 15:59:23]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.361.log
+
+runcpu finished at 2025-04-17 16:10:36; 677 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 503.bwaves_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265204 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   503.bwaves_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 503.bwaves_r...
+Starting runcpu for 503.bwaves_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 503.bwaves_r
+Compiling Binaries
+  Up to date 503.bwaves_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 503.bwaves_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 503.bwaves_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 16:10:39]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.362.log
+
+runcpu finished at 2025-04-17 16:47:09; 2193 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 503.bwaves_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265528 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   503.bwaves_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 503.bwaves_r...
+Starting runcpu for 503.bwaves_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 503.bwaves_r
+Compiling Binaries
+  Building 503.bwaves_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 16:47:12]
+
+Build successes for fprate: 503.bwaves_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 503.bwaves_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 503.bwaves_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 16:47:15]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.363.log
+
+runcpu finished at 2025-04-17 17:24:01; 2211 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 507.cactuBSSN_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265544 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   507.cactuBSSN_r             
+-------------------------------------------------------------------------------
+
+Setting up environment for running 507.cactuBSSN_r...
+Starting runcpu for 507.cactuBSSN_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 507.cactuBSSN_r
+Compiling Binaries
+  Building 507.cactuBSSN_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 17:24:04]
+
+Build successes for fprate: 507.cactuBSSN_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 507.cactuBSSN_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 507.cactuBSSN_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 17:24:21]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.364.log
+
+runcpu finished at 2025-04-17 17:33:28; 567 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 507.cactuBSSN_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264785 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   507.cactuBSSN_r             
+-------------------------------------------------------------------------------
+
+Setting up environment for running 507.cactuBSSN_r...
+Starting runcpu for 507.cactuBSSN_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 507.cactuBSSN_r
+Compiling Binaries
+  Building 507.cactuBSSN_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 17:33:31]
+
+Build successes for fprate: 507.cactuBSSN_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 507.cactuBSSN_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 507.cactuBSSN_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 17:33:47]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.365.log
+
+runcpu finished at 2025-04-17 17:43:05; 577 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 508.namd_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265091 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   508.namd_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 508.namd_r...
+Starting runcpu for 508.namd_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 508.namd_r
+Compiling Binaries
+  Building 508.namd_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 17:43:08]
+
+Build successes for fprate: 508.namd_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 508.namd_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 508.namd_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 17:43:24]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.366.log
+
+runcpu finished at 2025-04-17 17:48:04; 298 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 508.namd_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264402 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   508.namd_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 508.namd_r...
+Starting runcpu for 508.namd_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 508.namd_r
+Compiling Binaries
+  Building 508.namd_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 17:48:07]
+
+Build successes for fprate: 508.namd_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 508.namd_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 508.namd_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 17:48:22]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.367.log
+
+runcpu finished at 2025-04-17 17:53:20; 315 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 510.parest_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264205 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   510.parest_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 510.parest_r...
+Starting runcpu for 510.parest_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 510.parest_r
+Compiling Binaries
+  Building 510.parest_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 17:53:25]
+
+Build successes for fprate: 510.parest_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 510.parest_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 510.parest_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 17:54:15]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.368.log
+
+runcpu finished at 2025-04-17 18:28:37; 2116 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 510.parest_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264420 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   510.parest_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 510.parest_r...
+Starting runcpu for 510.parest_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 510.parest_r
+Compiling Binaries
+  Building 510.parest_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 18:28:39]
+
+Build successes for fprate: 510.parest_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 510.parest_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 510.parest_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 18:29:30]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.369.log
+
+runcpu finished at 2025-04-17 19:03:58; 2121 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 511.povray_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265089 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   511.povray_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 511.povray_r...
+Starting runcpu for 511.povray_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 511.povray_r
+Compiling Binaries
+  Building 511.povray_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 19:04:01]
+
+Build successes for fprate: 511.povray_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 511.povray_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 511.povray_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 19:04:10]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.370.log
+
+runcpu finished at 2025-04-17 19:12:54; 535 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 511.povray_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264776 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   511.povray_r                
+-------------------------------------------------------------------------------
+
+Setting up environment for running 511.povray_r...
+Starting runcpu for 511.povray_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 511.povray_r
+Compiling Binaries
+  Building 511.povray_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 19:12:56]
+
+Build successes for fprate: 511.povray_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 511.povray_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 511.povray_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 19:13:05]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.371.log
+
+runcpu finished at 2025-04-17 19:22:03; 549 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 519.lbm_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263811 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   519.lbm_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 519.lbm_r...
+Starting runcpu for 519.lbm_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 519.lbm_r
+Compiling Binaries
+  Up to date 519.lbm_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 519.lbm_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 519.lbm_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 19:22:06]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.372.log
+
+runcpu finished at 2025-04-17 20:01:24; 2360 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 519.lbm_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264277 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   519.lbm_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 519.lbm_r...
+Starting runcpu for 519.lbm_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 519.lbm_r
+Compiling Binaries
+  Building 519.lbm_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 20:01:26]
+
+Build successes for fprate: 519.lbm_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 519.lbm_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 519.lbm_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 20:01:29]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.373.log
+
+runcpu finished at 2025-04-17 20:40:55; 2370 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 521.wrf_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263873 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   521.wrf_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 521.wrf_r...
+Starting runcpu for 521.wrf_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 521.wrf_r
+Compiling Binaries
+  Up to date 521.wrf_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 521.wrf_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 521.wrf_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 20:41:03]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.374.log
+
+runcpu finished at 2025-04-17 21:00:05; 1150 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 521.wrf_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265428 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   521.wrf_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 521.wrf_r...
+Starting runcpu for 521.wrf_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 521.wrf_r
+Compiling Binaries
+  Building 521.wrf_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 21:00:08]
+
+Build successes for fprate: 521.wrf_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 521.wrf_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 521.wrf_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 21:09:50]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.375.log
+
+runcpu finished at 2025-04-17 21:29:14; 1748 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 526.blender_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264428 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   526.blender_r               
+-------------------------------------------------------------------------------
+
+Setting up environment for running 526.blender_r...
+Starting runcpu for 526.blender_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 526.blender_r
+Compiling Binaries
+  Building 526.blender_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 21:29:19]
+
+Build successes for fprate: 526.blender_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 526.blender_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 526.blender_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 21:29:50]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.376.log
+
+runcpu finished at 2025-04-17 21:37:21; 486 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 526.blender_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264542 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   526.blender_r               
+-------------------------------------------------------------------------------
+
+Setting up environment for running 526.blender_r...
+Starting runcpu for 526.blender_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 526.blender_r
+Compiling Binaries
+  Building 526.blender_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 21:37:23]
+
+Build successes for fprate: 526.blender_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 526.blender_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 526.blender_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 21:37:53]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.377.log
+
+runcpu finished at 2025-04-17 21:45:42; 501 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 527.cam4_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263480 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   527.cam4_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 527.cam4_r...
+Starting runcpu for 527.cam4_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 527.cam4_r
+Compiling Binaries
+  Up to date 527.cam4_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 527.cam4_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 527.cam4_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 21:45:49]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.378.log
+
+runcpu finished at 2025-04-17 21:56:35; 652 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 527.cam4_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263364 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   527.cam4_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 527.cam4_r...
+Starting runcpu for 527.cam4_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 527.cam4_r
+Compiling Binaries
+  Building 527.cam4_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 21:56:37]
+
+Build successes for fprate: 527.cam4_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 527.cam4_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 527.cam4_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 21:57:45]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.379.log
+
+runcpu finished at 2025-04-17 22:08:25; 710 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 538.imagick_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265024 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   538.imagick_r               
+-------------------------------------------------------------------------------
+
+Setting up environment for running 538.imagick_r...
+Starting runcpu for 538.imagick_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 538.imagick_r
+Compiling Binaries
+  Building 538.imagick_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 22:08:29]
+
+Build successes for fprate: 538.imagick_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 538.imagick_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 538.imagick_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 22:08:43]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.380.log
+
+runcpu finished at 2025-04-17 22:19:36; 670 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 538.imagick_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (265074 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   538.imagick_r               
+-------------------------------------------------------------------------------
+
+Setting up environment for running 538.imagick_r...
+Starting runcpu for 538.imagick_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 538.imagick_r
+Compiling Binaries
+  Building 538.imagick_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 22:19:38]
+
+Build successes for fprate: 538.imagick_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 538.imagick_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 538.imagick_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 22:19:54]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.381.log
+
+runcpu finished at 2025-04-17 22:30:47; 671 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 544.nab_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264059 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   544.nab_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 544.nab_r...
+Starting runcpu for 544.nab_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 544.nab_r
+Compiling Binaries
+  Up to date 544.nab_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 544.nab_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 544.nab_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 22:30:51]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.382.log
+
+runcpu finished at 2025-04-17 22:38:47; 479 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 544.nab_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264714 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   544.nab_r                   
+-------------------------------------------------------------------------------
+
+Setting up environment for running 544.nab_r...
+Starting runcpu for 544.nab_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 544.nab_r
+Compiling Binaries
+  Building 544.nab_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 22:38:49]
+
+Build successes for fprate: 544.nab_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 544.nab_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 544.nab_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 22:38:52]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.383.log
+
+runcpu finished at 2025-04-17 22:46:19; 452 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 549.fotonik3d_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (263189 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   549.fotonik3d_r             
+-------------------------------------------------------------------------------
+
+Setting up environment for running 549.fotonik3d_r...
+Starting runcpu for 549.fotonik3d_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 549.fotonik3d_r
+Compiling Binaries
+  Up to date 549.fotonik3d_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 549.fotonik3d_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 549.fotonik3d_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 22:46:23]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.384.log
+
+runcpu finished at 2025-04-17 23:35:46; 2967 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 549.fotonik3d_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (266136 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   549.fotonik3d_r             
+-------------------------------------------------------------------------------
+
+Setting up environment for running 549.fotonik3d_r...
+Starting runcpu for 549.fotonik3d_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 549.fotonik3d_r
+Compiling Binaries
+  Building 549.fotonik3d_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-17 23:35:48]
+
+Build successes for fprate: 549.fotonik3d_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 549.fotonik3d_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 549.fotonik3d_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-17 23:36:09]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.385.log
+
+runcpu finished at 2025-04-18 00:25:34; 2988 total seconds elapsed
+Executing command: runcpu -c mem_bw --action=onlyrun --size=ref 554.roms_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (262407 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   554.roms_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 554.roms_r...
+Starting runcpu for 554.roms_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 554.roms_r
+Compiling Binaries
+  Up to date 554.roms_r base mem_bw-64
+
+
+Setting Up Run Directories
+  Setting up 554.roms_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 554.roms_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-18 00:25:38]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.386.log
+
+runcpu finished at 2025-04-18 01:03:32; 2277 total seconds elapsed
+Executing command: runcpu -c mem_bw_llc_uncore --action=onlyrun --size=ref 554.roms_r
+SPEC CPU(r) 2017 Benchmark Suites
+Copyright 1995-2019 Standard Performance Evaluation Corporation (SPEC)
+
+runcpu v6612
+Using 'linux-aarch64' tools
+Reading file manifests... read 32347 entries from 2 files in 0.12s (264130 files/s)
+Loading runcpu modules.................
+Locating benchmarks...found 47 benchmarks in 73 benchsets.
+Reading config file '/home/eerqi/SPEC_CPU_2017/installation/config/mem_bw_llc_uncore.cfg'
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type     Benchmarks
+--------   --------   --------   ---------------   ----------------------------
+only_run   rate       refrate    SPECrate2017_fp   554.roms_r                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 554.roms_r...
+Starting runcpu for 554.roms_r...
+Running "specperl /home/eerqi/SPEC_CPU_2017/installation/bin/sysinfo" to gather system information.
+sysinfo: r6622 of 2021-04-07 (982a61ec0915b55891ef0e16acafc64d)
+sysinfo: Getting system information for Linux...
+sysinfo: ...getting CPU info
+sysinfo: ...getting info from numactl
+sysinfo: ...getting memory info
+sysinfo: ...looking for power info
+sysinfo: ...getting OS info
+sysinfo: ...getting CPU vulnerability status from the kernel
+sysinfo: ...getting disk info
+sysinfo: ...trying to get info from /sys/devices/virtual/dmi/id
+sysinfo: ...trying to get info from dmidecode
+Retrieving flags file (/home/eerqi/SPEC_CPU_2017/installation/config/flags/gcc.xml)...
+Benchmarks selected: 554.roms_r
+Compiling Binaries
+  Building 554.roms_r base mem_bw-64: (build_base_mem_bw-64.0000) [2025-04-18 01:03:35]
+
+Build successes for fprate: 554.roms_r(base)
+Build errors for fprate: None
+
+Setting Up Run Directories
+  Setting up 554.roms_r refrate (ref) base mem_bw-64 (160 copies): run_base_refrate_mem_bw-64.0000-0159
+Running Benchmarks
+  Running 554.roms_r refrate (ref) base mem_bw-64 (160 copies) [2025-04-18 01:03:48]
+Run Complete
+The log for this run is in /home/eerqi/SPEC_CPU_2017/installation/result/CPU2017.387.log
+
+runcpu finished at 2025-04-18 01:41:51; 2298 total seconds elapsed
+All commands executed
